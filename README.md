@@ -1,33 +1,33 @@
-# The Swift Programming Language
+# Ngôn Ngữ Lập Trình Swift
 
-The Swift Programming Language book for Vietnamese. 
-This repo is a cloned version of the [official version].
+Cuốn sách "Ngôn Ngữ Lập Trình Swift" cho người Việt.
+Repo này là bản clone của [phiên bản chính thức].
 
-This repository contains the source for *The Swift Programming Language*
-(sometimes abbreviated as TSPL),
-which is published on [docs.swift.org][published]
-and built using [Swift-DocC][docc].
+Repository này chứa nguồn của *Ngôn Ngữ Lập Trình Swift*
+(thỉnh thoảng được viết tắt là TSPL),
+được xuất bản trên [docs.swift.org][published]
+và được xây dựng sử dụng [Swift-DocC][docc].
 
-## Contributing
+## Đóng Góp
 
-For small changes,
-like typo fixes and changes to a few paragraphs,
-fork this repository and make a pull request.
+Đối với những thay đổi nhỏ,
+như sửa lỗi chính tả và các đoạn văn ngắn,
+hãy fork repository này và tạo một pull request.
 
-A formal contribution process for this document is still in development.
-In the meantime,
-start a pitch thread in the [Swift forums][forum] for larger changes
-to discuss your approach and identify possible issues
-before you invest a lot of time in writing.
+Quá trình đóng góp chính thức cho tài liệu này vẫn đang được phát triển.
+Trong thời gian chờ đợi,
+bắt đầu một chuỗi thảo luận tại [Diễn đàn Swift][forum] cho những thay đổi lớn
+để thảo luận về phương hướng và xác định các vấn đề tiềm ẩn
+trước khi bạn dành nhiều thời gian vào viết lách.
 
-Content in this book follows [Apple Style Guide][asg]
-and [this book’s style guide][tspl-style].
+Nội dung trong cuốn sách này tuân theo [Hướng Dẫn Phong Cách của Apple][asg]
+và [hướng dẫn phong cách của cuốn sách này][tspl-style].
 
-File bugs about the content using the [issues page][bugs] on Github.
+Báo cáo lỗi về nội dung sử dụng [trang vấn đề][bugs] trên Github.
 
-Discussions and contributions follow the [Swift Code of Conduct][conduct].
+Thảo luận và đóng góp tuân theo [Quy tắc Ứng xử của Swift][conduct].
 
-For more information, see [Contributing to The Swift Programming Language][contributing].
+Để biết thêm thông tin, xem [Đóng góp vào Ngôn Ngữ Lập Trình Swift][contributing].
 
 [asg]: https://help.apple.com/applestyleguide/
 [bugs]: https://github.com/apple/swift-book/issues
@@ -37,24 +37,23 @@ For more information, see [Contributing to The Swift Programming Language][contr
 [tspl-style]: /Style.md
 [published]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 [docc]: https://github.com/apple/swift-docc
-[official version]: https://github.com/apple/swift-book
+[phiên bản chính thức]: https://github.com/apple/swift-book
 
-## Building
+## Xây Dựng
 
-Run `docc preview TSPL.docc`
-in this repository's root directory.
+Chạy lệnh `docc preview TSPL.docc`
+trong thư mục gốc của repository này.
 
-After running DocC, open the link that `docc` outputs
-to display a local preview in your browser.
+Sau khi chạy DocC, mở liên kết mà `docc` tạo ra
+để xem trước nội dung trên trình duyệt của bạn.
 
-> Note:
+> Lưu ý:
 >
-> If you installed DocC by downloading a toolchain from Swift.org,
-> `docc` is located in `usr/bin/`,
-> relative to the installation path of the toolchain.
-> Make sure your shell's `PATH` environment variable
-> includes that directory.
+> Nếu bạn cài đặt DocC bằng cách tải toolchain từ Swift.org,
+> `docc` nằm trong `usr/bin/`,
+> tương đối với đường dẫn cài đặt của toolchain.
+> Đảm bảo rằng biến môi trường `PATH` của shell của bạn
+> bao gồm thư mục đó.
 >
-> If you installed DocC by downloading Xcode,
-> run `xcrun docc preview TSPL.docc` instead.
-
+> Nếu bạn cài đặt DocC bằng cách tải Xcode,
+> chạy `xcrun docc preview TSPL.docc` thay vì lệnh trước.
