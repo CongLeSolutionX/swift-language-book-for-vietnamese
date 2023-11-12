@@ -1,5 +1,8 @@
 # The Swift Programming Language
 
+The Swift Programming Language book for Vietnamese. 
+This repo is a cloned version of the [official version].
+
 This repository contains the source for *The Swift Programming Language*
 (sometimes abbreviated as TSPL),
 which is published on [docs.swift.org][published]
@@ -34,6 +37,7 @@ For more information, see [Contributing to The Swift Programming Language][contr
 [tspl-style]: /Style.md
 [published]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 [docc]: https://github.com/apple/swift-docc
+[official version]: https://github.com/apple/swift-book
 
 ## Building
 
